@@ -1,0 +1,20 @@
+.app-container {
+    background-color: rgb(248, 248, 248);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-container .counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .app-container {
+        align-items: unset;
+    }
+}

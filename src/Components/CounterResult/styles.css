@@ -1,0 +1,21 @@
+.container-counter-result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-counter-result .label-text {
+    margin: 0px;
+}
+
+.container-counter-result .title {
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container-counter-result .title {
+        text-align: center;
+        font-size: 30px;
+    }
+}
